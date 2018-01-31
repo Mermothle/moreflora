@@ -1,0 +1,23 @@
+{ 
+   "entities": {          
+      "plants": {
+         "cherrybloom_plant": {
+            "display_name": "Cherrybloom",
+            "description": "A pretty, romantic plant.",
+            "unripe_description": "Will bloom into a nice fruit tree one day."
+         }                        
+      }
+   }
+},
+"food": {
+         "cherryberry_basket": {
+            "cherryberry_basket" : {
+               "display_name" : "Cherryberry Basket",
+               "description"  : "Sweet and juicy!"
+            },
+            "cherryberry_serving" : {
+               "display_name" : "Cherryberry Serving",
+               "description"  : "Sweet and juicy!"
+            }
+         }
+      },

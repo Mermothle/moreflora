@@ -1,0 +1,36 @@
+{
+
+   "landscape": {
+      "placement_table": {
+         "moreflora:plants:cherrybloom": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.1,
+               "exclusion_radius": 1
+            }
+         }
+      },
+      "scattered": {
+         "plants": {
+            "weights": {
+               "plains": {
+                  "1": {
+                     "moreflora:plants:cherrybloom": 1
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "moreflora:plants:cherrybloom": 1
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "moreflora:plants:cherrybloom": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}
