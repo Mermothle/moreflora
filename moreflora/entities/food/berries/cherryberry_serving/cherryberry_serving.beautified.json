@@ -1,0 +1,43 @@
+{
+    "mixins": "stonehearth:mixins:item_properties",
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [ "file(cherryberry_serving.qb)" ]
+            }
+        }
+    },
+    "entity_data": {
+        "stonehearth:item": {
+            "category": "food",
+            "destroy_on_uncarry": true
+        },
+        "stonehearth:activity_name": "eating_berries",
+        "stonehearth:food": {
+            "stonehearth:sitting_on_chair": {
+                "satisfaction": 40
+            },
+            "default": {
+                "satisfaction": 35
+            },
+            "quality": 3
+        },
+        "stonehearth:net_worth": {
+            "value_in_gold": 15,
+            "shop_info": {
+                "buyable": false,
+                "sellable": true
+            }
+        },
+        "stonehearth:catalog": {
+            "display_name": "i18n(moreflora:entities.food.cherryberry.cherryberry_serving.display_name)",
+            "description": "i18n(moreflora:entities.food.cherryberry.cherryberry_serving.description)",
+            "icon": "file(cherryberry_serving.png)",
+            "is_item": true,
+            "category": "food",
+            "material_tags": "food vegetarian",
+            "subject_override": "moreflora:plants:cherrybloom_bush"
+        }
+    }
+}

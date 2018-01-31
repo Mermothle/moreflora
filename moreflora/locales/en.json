@@ -7,11 +7,10 @@
             "unripe_description": "Will bloom into a nice fruit tree one day."
          }                        
       }
-   }
-},
-"food": {
-         "cherryberry_basket": {
-            "cherryberry_basket" : {
+   },
+   "food": {
+      "berries": {
+         "cherryberry_basket" : {
                "display_name" : "Cherryberry Basket",
                "description"  : "Sweet and juicy!"
             },
@@ -20,4 +19,5 @@
                "description"  : "Sweet and juicy!"
             }
          }
-      },
+   }
+},

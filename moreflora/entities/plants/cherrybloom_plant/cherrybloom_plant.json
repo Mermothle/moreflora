@@ -1,24 +1,24 @@
 {
    "type": "entity",
-   "mixins": "file(fern_plant_ghost.json)",
+   "mixins": "file(cherrybloom_plant_ghost.json)",
    "components": {
       "model_variants": {
          "depleted": {
             "models": [
-               "file(fern_plant_harvested.qb)"
+               "file(cherrybloom_plant_harvested.qb)"
             ]
          }
       },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
          "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
-         "unripe_description": "i18n(fornjotr:entities.plants.fern_plant.unripe_description)",
-         "resource": "fornjotr:resources:herb:fern",
+         "unripe_description": "i18n(moreflora:entities.plants.cherrybloom.unripe_description)",
+         "resource": "moreflora:food:berries:cherryberry_basket",
          "renewal_time": "22h"
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(fern_plant_iconic.json)",
-         "ghost_form": "file(fern_plant_ghost.json)",
+         "iconic_form": "file(cherrybloom_plant_iconic.json)",
+         "ghost_form": "file(cherrybloom_plant_ghost.json)",
          "placeable_on_ground": true,
          "hide_undeploy_ui": true
       }

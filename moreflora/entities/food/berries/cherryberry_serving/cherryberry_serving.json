@@ -25,31 +25,21 @@
          },
          "quality": 3
       },
-      "stonehearth:drink": {
-         "stonehearth:sitting_on_chair": {
-            "satisfaction": 40
-         },
-         "default": {
-            "satisfaction": 35
-         },
-         "quality": 3
-      },
       "stonehearth:net_worth": {
          "value_in_gold": 15,
-         "rarity": "common",
          "shop_info": {
             "buyable": false,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
+            "sellable": true
          }
       },
       "stonehearth:catalog": {
          "display_name": "i18n(moreflora:entities.food.cherryberry.cherryberry_serving.display_name)",
          "description": "i18n(moreflora:entities.food.cherryberry.cherryberry_serving.description)",
          "icon": "file(cherryberry_serving.png)",
+         "is_item": true,
          "category": "food",
-         "material_tags": "food, drink"
+         "material_tags": "food vegetarian",
+         "subject_override": "moreflora:plants:cherrybloom_bush"
       }
    }
 }

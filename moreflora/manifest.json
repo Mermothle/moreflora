@@ -4,10 +4,10 @@
       "name": "moreflora"
    },
    "default_locale": "en",
-   "aliases": {   
-      "cherrybloom:plant": "file(entities/plants/cherrybloom_plant)"
-      "food:cherryberry_basket": "file(entities/food/cherryberry_basket/cherryberry_basket)",
-      "food:cherryberry_serving": "file(entities/food/cherryberry_basket/cherryberry_serving)",
+   "aliases": {
+      "plants:cherrybloom": "file(entities/plants/cherrybloom_plant)",
+      "food:berries:cherryberry_basket": "file(entities/food/berries/cherryberry_basket)",
+      "food:berries:cherryberry_serving": "file(entities/food/berries/cherryberry_serving)",
    },
    "mixintos": {
       "stonehearth/data/biome/temperate_generation_data.json": "file(/data/biome/temperate_generation_data.json)"
