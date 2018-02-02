@@ -9,6 +9,14 @@
                "item_density": 0.1,
                "exclusion_radius": 1
             }
+         },
+         "moreflora:plants:teller": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.2,
+               "exclusion_radius": 1
+            }
          }
       },
       "scattered": {
@@ -16,17 +24,20 @@
             "weights": {
                "plains": {
                   "1": {
-                     "moreflora:plants:cherrybloom": 2
+                     "moreflora:plants:cherrybloom": 2,
+                     "moreflora:plants:teller": 2
                   }
                },
                "foothills": {
                   "1": {
-                     "moreflora:plants:cherrybloom": 7
+                     "moreflora:plants:cherrybloom": 2,
+                     "moreflora:plants:teller": 2
                   }
                },
                "mountains": {
                   "1": {
-                     "moreflora:plants:cherrybloom": 1
+                     "moreflora:plants:cherrybloom": 2,
+                     "moreflora:plants:teller": 2
                   }
                }
             }
