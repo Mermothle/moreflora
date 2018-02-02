@@ -6,7 +6,7 @@
    "default_locale": "en",
    "aliases": {
       "plants:cherrybloom": "file(entities/plants/cherrybloom_plant)",
-      "plants: teller": "file(entities/plants/teller_plant)",
+      "plants:teller": "file(entities/plants/teller_plant)",
       "food:berries:cherryberry_basket": "file(entities/food/berries/cherryberry_basket)",
       "food:berries:cherryberry_serving": "file(entities/food/berries/cherryberry_serving)",
       "resources:herb:teller": "file(entities/resources/herb/teller)",
