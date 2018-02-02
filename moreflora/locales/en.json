@@ -4,13 +4,21 @@
          "cherrybloom_plant": {
             "display_name": "Cherrybloom",
             "description": "A pretty, romantic plant.",
-            "unripe_description": "Will bloom into a nice fruit tree one day."
-         }                        
+            "unripe_description": "Will bloom into a nice fruit tree one day.",
+         "teller_plant": {
+            "display_name": "Teller",
+            "description": "Legends say it lets you see the future.",
+            "unripe_description": "Magic takes time to work!"
+         }                      
       }
    },
-   "food": {
-      "berries": {
-         "cherryberry_basket" : {
+      "herb": {
+         "display_name": "Teller Flowers",
+         "description": "They smell sweet and feel like velvet."
+   },
+      "food": {
+         "berries": {
+            "cherryberry_basket" : {
                "display_name" : "Cherryberry Basket",
                "description"  : "Sweet and juicy!"
             },
@@ -19,5 +27,6 @@
                "description"  : "Sweet and juicy!"
             }
          }
+      }
    }
-},
+}
