@@ -1,0 +1,29 @@
+{
+   "craftable_recipes" : {
+      "food" : {
+         "ordinal" : 2,
+         "name" : "i18n(stonehearth:jobs.cook.recipes.food_name)",
+         "recipes" : {  
+            "meat_croquette" : {
+               "recipe" : "file(meat_croquette_recipe.json)"
+            },
+            "cooked_meat" : {
+               "recipe" : "file(cooked_meat_recipe.json)"
+            },
+            "berry_bowl" : {
+               "recipe" : "file(berry_bowl_recipe.json)"
+            },
+            "prickly_pear_bowl" : {
+               "recipe" : "file(prickly_pear_bowl_recipe.json)"
+            },
+            "seasoned_meat" : {
+               "recipe" : "file(seasoned_meat_recipe.json)"
+            },
+            "simple_corn_bread" : {
+               "recipe" : "file(simple_corn_bread_recipe.json)"
+            }
+         }
+      }
+   }
+}
+

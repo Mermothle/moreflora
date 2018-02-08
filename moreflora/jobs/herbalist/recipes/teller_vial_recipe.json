@@ -1,0 +1,20 @@
+{
+  "type": "recipe",
+  "work_units": 1,
+  "recipe_name": "i18n(moreflora:jobs.herbalist.recipes.teller_vial_recipe.reciple_name",
+  "description": "i18n(moreflora:jobs.herbalist.recipes.teller_vial_recipe.description",
+  "flavor": "i18n(moreflora:jobs.herbalist.recipes.teller_vial_recipe.flavor",
+  "portrait": "/moreflora/entities/consumables/teller_vial/teller_vial/teller_vial_recipe.png",
+  "workshop": "stonehearth:herbalist:workbench",
+  "ingredients": [
+    {
+      "uri": "moreflora:resources:herb:teller",
+      "count": "3"
+    }
+  ],
+  "produces": [
+    {
+      "item": "moreflora:resources:herb:teller"
+    }
+  ]
+}
