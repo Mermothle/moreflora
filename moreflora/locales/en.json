@@ -16,7 +16,13 @@
       "herb": {
          "display_name": "Teller Flowers",
          "description": "They smell sweet and feel like velvet."
-   },
+         },
+      "consumables": {
+         "teller_vial": {
+            "display_name": "Teller Vial",
+            "description": "A refreshing, sparkling drink!"
+         }
+      },
       "food": {
          "berries": {
             "cherryberry_basket" : {

@@ -10,6 +10,7 @@
       "food:berries:cherryberry_basket": "file(entities/food/berries/cherryberry_basket)",
       "food:berries:cherryberry_serving": "file(entities/food/berries/cherryberry_serving)",
       "resources:herb:teller": "file(entities/resources/herb/teller)",
+      "consumables:teller_vial:teller_vial": "file(entities/consumables/teller_vial/teller_vial"
 
 
 
