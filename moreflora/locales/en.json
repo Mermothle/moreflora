@@ -1,4 +1,4 @@
-{ 
+{
    "entities": {          
       "plants": {
          "cherrybloom_plant": {
@@ -10,19 +10,35 @@
             "display_name": "Teller",
             "description": "Legends say it lets you see the future.",
             "unripe_description": "Magic takes time to work!"  
-         }                   
+         },
+         "tullerweed_plant": {
+            "display_name": "Tullerweed",
+            "description": "A green flowery plant that smells minty.",
+            "unripe_description": "It'll be a bit before it can be picked again."
+         },
+         "ripflor_plant": {
+            "display_name": "Ripflor",
+            "description": "A juicy flower named for its blue of roaring rapids.",
+            "unripe_description": "Can't get water from this yet."
+         }
       }
    },
       "herb": {
+         "teller": {
          "display_name": "Teller Flowers",
          "description": "They smell sweet and feel like velvet."
-         },
+      },
+         "ripflor": {
+            "display_name": "Ripflor Flowers",
+            "description": "Squishy!"
+         }
+   },
       "consumables": {
          "teller_vial": {
             "display_name": "Teller Vial",
             "description": "A refreshing, sparkling drink!"
          }
-      },
+   },
       "food": {
          "berries": {
             "cherryberry_basket" : {

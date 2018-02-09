@@ -8,20 +8,20 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(cherrybloom_plant.qb)"
+               "file(ripflor_plant.qb)"
             ]
          }
       },
       "mob": {
-         "model_origin": { "x": -2, "y": 0, "z": 1 },
+         "model_origin": { "x": -1, "y": 0, "z": 0.8 },
          "mob_collision_type": "clutter"
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(moreflora:entities.plants.cherrybloom_plant.display_name)",
-         "description": "i18n(moreflora:entities.plants.cherrybloom_plant.description)",
-         "icon": "file(cherrybloom_plant.png)",
+         "display_name": "i18n(moreflora:entities.plants.ripflor_plant.display_name)",
+         "description": "i18n(moreflora:entities.plants.ripflor_plant.description)",
+         "icon": "file(ripflor_plant.png)",
          "category": "plants"
       }
    }

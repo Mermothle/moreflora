@@ -10,11 +10,27 @@
                "exclusion_radius": 1
             }
          },
+         "moreflora:plants:tullerweed": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.2,
+               "exclusion_radius": 1
+            }
+         },
+         "moreflora:plants:ripflor": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.5,
+               "exclusion_radius": 1
+            }
+         },
          "moreflora:plants:teller": {
             "placement_type": "dense",
             "parameters": {
                "grid_multiple": 4,
-               "item_density": 0.1,
+               "item_density": 0.2,
                "exclusion_radius": 1
             }
          }
@@ -25,19 +41,25 @@
                "plains": {
                   "1": {
                      "moreflora:plants:cherrybloom": 2,
-                     "moreflora:plants:teller": 2
+                     "moreflora:plants:teller": 2,
+                     "moreflora:plants:tullerweed": 4,
+                     "moreflora:plants:ripflor": 3
                   }
                },
                "foothills": {
                   "1": {
                      "moreflora:plants:cherrybloom": 2,
-                     "moreflora:plants:teller": 2
+                     "moreflora:plants:teller": 3,
+                     "moreflora:plants:tullerweed": 4,
+                     "moreflora:plants:ripflor": 4
                   }
                },
                "mountains": {
                   "1": {
                      "moreflora:plants:cherrybloom": 2,
-                     "moreflora:plants:teller": 2
+                     "moreflora:plants:teller": 2,
+                     "moreflora:plants:tullerweed": 2,
+                     "moreflora:plants:ripflor": 2
                   }
                }
             }
